@@ -36,17 +36,17 @@ document.querySelectorAll('a, button, .gallery-item').forEach(el => {
 const base = 'https://raw.githubusercontent.com/LuizPauloAlves/LPAnaliseSolucao/refs/heads/main/src/imagens/';
 
 const images = [
-  { file: 'Cap_02.png',       label: 'Dados Iniciais',       chapter: 'ch2', page: '' },
-  { file: 'Cap_03.png',       label: 'Análise Exploratória', chapter: 'ch3', page: '' },
+  { file: 'Cap_02_pag01.png', label: 'Dados Iniciais',       chapter: 'ch2', page: '' },
+  { file: 'Cap_03_pag01.png', label: 'Análise Exploratória', chapter: 'ch3', page: '' },
   { file: 'Cap_04_pag01.png', label: 'Análise Detalhada',    chapter: 'ch4', page: 'Pág 1' },
   { file: 'Cap_04_pag02.png', label: 'Análise Detalhada',    chapter: 'ch4', page: 'Pág 2' },
   { file: 'Cap_04_pag03.png', label: 'Análise Detalhada',    chapter: 'ch4', page: 'Pág 3' },
   { file: 'Cap_04_pag04.png', label: 'Análise Detalhada',    chapter: 'ch4', page: 'Pág 4' },
   { file: 'Cap_05_pag01.png', label: 'Modelagem',            chapter: 'ch5', page: 'Pág 1' },
   { file: 'Cap_05_pag02.png', label: 'Modelagem',            chapter: 'ch5', page: 'Pág 2' },
-  { file: 'Cap_06.png',       label: 'Resultados',           chapter: 'ch6', page: '' },
-  { file: 'Cap_07.png',       label: 'Insights',             chapter: 'ch7', page: '' },
-  { file: 'Cap_08.png',       label: 'Conclusão',            chapter: 'ch8', page: '' },
+  { file: 'Cap_06_pag01.png', label: 'Resultados',           chapter: 'ch6', page: '' },
+  { file: 'Cap_07_pag01.png', label: 'Insights',             chapter: 'ch7', page: '' },
+  { file: 'Cap_08_pag01.png', label: 'Conclusão',            chapter: 'ch8', page: '' },
 ];
 
 // Agrupar imagens por capítulo
